@@ -4,7 +4,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Ayu Primary Care</h3>
+            <h3 className="text-xl font-bold mb-4">Ayu Primary Hospital</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Providing compassionate, high-quality healthcare to our community. 
               Your health is our priority.
@@ -22,6 +22,26 @@ function Footer() {
               <li>
                 <a href="#services" className="text-gray-400 hover:text-white transition-colors">
                   Services
+                </a>
+              </li>
+              <li>
+                <a href="#staff" className="text-gray-400 hover:text-white transition-colors">
+                  Our Staff
+                </a>
+              </li>
+              <li>
+                <a href="#structure" className="text-gray-400 hover:text-white transition-colors">
+                  Organization
+                </a>
+              </li>
+              <li>
+                <a href="#videos" className="text-gray-400 hover:text-white transition-colors">
+                  Facility Videos
+                </a>
+              </li>
+              <li>
+                <a href="#sister-companies" className="text-gray-400 hover:text-white transition-colors">
+                  Sister Companies
                 </a>
               </li>
               <li>
@@ -50,7 +70,7 @@ function Footer() {
         
         <div className="border-t border-gray-800 pt-6">
           <p className="text-center text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Ayu Primary Care. All rights reserved.
+            &copy; {new Date().getFullYear()} Ayu Primary Hospital. All rights reserved.
           </p>
         </div>
       </div>

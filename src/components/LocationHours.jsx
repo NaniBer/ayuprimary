@@ -1,12 +1,12 @@
 function LocationHours() {
   const hours = [
-    { day: 'Monday', hours: '8:00 AM - 6:00 PM' },
-    { day: 'Tuesday', hours: '8:00 AM - 6:00 PM' },
-    { day: 'Wednesday', hours: '8:00 AM - 6:00 PM' },
-    { day: 'Thursday', hours: '8:00 AM - 6:00 PM' },
-    { day: 'Friday', hours: '8:00 AM - 6:00 PM' },
-    { day: 'Saturday', hours: '9:00 AM - 2:00 PM' },
-    { day: 'Sunday', hours: 'Closed' }
+    { day: 'Monday', hours: '24 Hours' },
+    { day: 'Tuesday', hours: '24 Hours' },
+    { day: 'Wednesday', hours: '24 Hours' },
+    { day: 'Thursday', hours: '24 Hours' },
+    { day: 'Friday', hours: '24 Hours' },
+    { day: 'Saturday', hours: '24 Hours' },
+    { day: 'Sunday', hours: '24 Hours' }
   ]
 
   return (

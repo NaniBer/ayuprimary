@@ -4,7 +4,7 @@ function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            About Ayu Primary Care
+            About Ayu Primary Hospital
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
         </div>
@@ -12,7 +12,7 @@ function About() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Welcome to Ayu Primary Care, where your health and well-being are our top priorities. 
+              Welcome to Ayu Primary Hospital, where your health and well-being are our top priorities. 
               Our dedicated team of healthcare professionals is committed to providing comprehensive, 
               compassionate care to patients of all ages.
             </p>
@@ -22,7 +22,7 @@ function About() {
               staffed by experienced physicians who specialize in various fields of medicine.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed">
-              At Ayu Primary Care, we believe in building long-term relationships with our patients 
+              At Ayu Primary Hospital, we believe in building long-term relationships with our patients 
               and providing personalized care that addresses your unique health needs.
             </p>
           </div>

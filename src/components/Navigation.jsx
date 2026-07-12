@@ -5,7 +5,7 @@ function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a href="#about" className="text-2xl font-bold text-blue-600">
-              Ayu Primary Care
+              Ayu Primary Hospital
             </a>
           </div>
           
@@ -16,6 +16,18 @@ function Navigation() {
               </a>
               <a href="#services" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
                 Services
+              </a>
+              <a href="#staff" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+                Staff
+              </a>
+              <a href="#structure" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+                Organization
+              </a>
+              <a href="#videos" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+                Videos
+              </a>
+              <a href="#sister-companies" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+                Sister Companies
               </a>
               <a href="#location" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
                 Location & Hours
