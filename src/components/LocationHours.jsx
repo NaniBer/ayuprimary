@@ -10,7 +10,7 @@ function LocationHours() {
   ]
 
   return (
-    <div className="py-24 bg-gradient-to-br from-gray-50 via-white to-blue-50/30 relative overflow-hidden">
+    <div className="py-24 bg-gray-50 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-4 font-medium text-sm">
@@ -23,7 +23,7 @@ function LocationHours() {
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Location & Hours
           </h2>
-          <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1.5 bg-blue-600 mx-auto rounded-full mb-6"></div>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             We're conveniently located and open 24/7 to serve your healthcare needs.
           </p>
@@ -31,10 +31,9 @@ function LocationHours() {
         
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-3xl transform group-hover:scale-105 transition-all opacity-0 group-hover:opacity-100 blur-xl"></div>
             <div className="relative bg-white rounded-3xl shadow-xl p-8 border border-gray-100">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl flex items-center justify-center text-white shadow-lg">
+                <div className="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center text-white shadow-lg">
                   <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -82,7 +81,7 @@ function LocationHours() {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-5">
+              <div className="bg-blue-50 rounded-2xl p-5">
                 <h4 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
                   <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -99,10 +98,9 @@ function LocationHours() {
           </div>
           
           <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-3xl transform group-hover:scale-105 transition-all opacity-0 group-hover:opacity-100 blur-xl"></div>
             <div className="relative bg-white rounded-3xl shadow-xl p-8 border border-gray-100">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-2xl flex items-center justify-center text-white shadow-lg">
+                <div className="w-14 h-14 bg-emerald-500 rounded-2xl flex items-center justify-center text-white shadow-lg">
                   <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                   </svg>
@@ -110,7 +108,7 @@ function LocationHours() {
                 <h3 className="text-2xl font-bold text-gray-900">Operating Hours</h3>
               </div>
               
-              <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-5 mb-6">
+              <div className="bg-gray-50 rounded-2xl p-5 mb-6">
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <div className="flex items-center gap-2 bg-green-100 text-green-700 px-4 py-2 rounded-full font-semibold text-sm">
                     <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
@@ -133,7 +131,7 @@ function LocationHours() {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-5 border-l-4 border-red-500">
+              <div className="bg-red-50 rounded-2xl p-5 border-l-4 border-red-500">
                 <div className="flex items-start gap-3">
                   <div className="w-10 h-10 bg-red-100 rounded-xl flex items-center justify-center flex-shrink-0">
                     <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">

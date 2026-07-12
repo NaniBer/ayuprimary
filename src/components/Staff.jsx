@@ -45,10 +45,7 @@ function Staff() {
   ]
 
   return (
-    <div className="py-24 bg-gradient-to-br from-gray-50 via-white to-blue-50/50 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-80 h-80 bg-blue-100 rounded-full filter blur-3xl opacity-40"></div>
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-cyan-100 rounded-full filter blur-3xl opacity-40"></div>
-      
+    <div className="py-24 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-4 font-medium text-sm">
@@ -60,7 +57,7 @@ function Staff() {
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Meet Our Experts
           </h2>
-          <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1.5 bg-blue-600 mx-auto rounded-full mb-6"></div>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Our dedicated team of healthcare professionals is committed to providing world-class medical care with compassion and expertise.
           </p>
@@ -69,17 +66,16 @@ function Staff() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {staff.map((member, index) => (
             <div key={index} className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-3xl transform group-hover:scale-105 transition-all opacity-0 group-hover:opacity-100 blur-xl"></div>
-              <div className="relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100 group-hover:border-transparent">
+              <div className="relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100 group-hover:border-blue-200">
                 <div className="relative h-72 overflow-hidden">
                   <img 
                     src={member.image} 
                     alt={member.name}
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                  <div className="absolute inset-0 bg-black/40"></div>
                   <div className="absolute bottom-4 left-4 right-4">
-                    <div className="inline-block bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium text-blue-700">
+                    <div className="inline-block bg-white px-3 py-1 rounded-full text-sm font-medium text-blue-700">
                       {member.credentials}
                     </div>
                   </div>

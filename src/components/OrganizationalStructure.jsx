@@ -8,7 +8,7 @@ function OrganizationalStructure() {
         </svg>
       ),
       roles: ['Medical Director', 'Hospital Administrator', 'Chief Nursing Officer'],
-      gradient: 'from-blue-600 to-blue-700'
+      color: 'bg-blue-600'
     },
     {
       level: 'Department Heads',
@@ -18,7 +18,7 @@ function OrganizationalStructure() {
         </svg>
       ),
       roles: ['Head of Surgery', 'Head of Internal Medicine', 'Head of Pediatrics', 'Head of Emergency', 'Head of Laboratory'],
-      gradient: 'from-cyan-500 to-cyan-600'
+      color: 'bg-cyan-500'
     },
     {
       level: 'Medical Staff',
@@ -28,7 +28,7 @@ function OrganizationalStructure() {
         </svg>
       ),
       roles: ['Specialist Physicians', 'General Physicians', 'Resident Doctors', 'Consultants'],
-      gradient: 'from-purple-500 to-purple-600'
+      color: 'bg-purple-500'
     },
     {
       level: 'Nursing & Support',
@@ -38,7 +38,7 @@ function OrganizationalStructure() {
         </svg>
       ),
       roles: ['Senior Nurses', 'Staff Nurses', 'Nursing Assistants', 'Medical Assistants'],
-      gradient: 'from-rose-500 to-rose-600'
+      color: 'bg-rose-500'
     },
     {
       level: 'Administrative & Technical',
@@ -49,14 +49,12 @@ function OrganizationalStructure() {
         </svg>
       ),
       roles: ['Administrative Staff', 'Laboratory Technicians', 'Radiology Technicians', 'Pharmacy Staff'],
-      gradient: 'from-amber-500 to-amber-600'
+      color: 'bg-amber-500'
     }
   ]
 
   return (
-    <div className="py-24 bg-white relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-gray-50 to-transparent"></div>
-      
+    <div className="py-24 bg-gray-50 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-4 font-medium text-sm">
@@ -68,7 +66,7 @@ function OrganizationalStructure() {
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Our Structure
           </h2>
-          <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1.5 bg-blue-600 mx-auto rounded-full mb-6"></div>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             A well-organized structure ensuring efficient healthcare delivery at every level.
           </p>
@@ -77,10 +75,9 @@ function OrganizationalStructure() {
         <div className="space-y-6">
           {structure.map((level, index) => (
             <div key={index} className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 to-cyan-500/5 rounded-2xl transform group-hover:scale-[1.02] transition-all"></div>
               <div className="relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all border border-gray-100 p-6">
                 <div className="flex items-center gap-4 mb-5">
-                  <div className={`w-14 h-14 bg-gradient-to-br ${level.gradient} rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform`}>
+                  <div className={`w-14 h-14 ${level.color} rounded-xl flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform`}>
                     {level.icon}
                   </div>
                   <div className="flex-1">
@@ -96,7 +93,7 @@ function OrganizationalStructure() {
                 </div>
                 <div className="ml-[72px] grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
                   {level.roles.map((role, idx) => (
-                    <div key={idx} className="bg-gradient-to-br from-gray-50 to-white px-4 py-3 rounded-xl text-gray-700 border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all text-sm font-medium">
+                    <div key={idx} className="bg-gray-50 px-4 py-3 rounded-xl text-gray-700 border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all text-sm font-medium">
                       {role}
                     </div>
                   ))}
